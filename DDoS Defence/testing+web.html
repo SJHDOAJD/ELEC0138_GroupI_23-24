@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict DDoS Attack</title>
+</head>
+<body>
+    <h1>DDoS Attack Prediction Form</h1>
+    <form action="http://127.0.0.1:5000/predict" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="file">Upload CSV File:</label>
+            <input type="file" id="file" name="file" accept=".csv" required>
+        </div>
+        <div>
+            <button type="submit">Upload and Predict</button>
+        </div>
+    </form>
+</body>
+</html>
+
